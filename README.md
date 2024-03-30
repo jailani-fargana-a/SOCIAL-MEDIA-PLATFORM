@@ -6,14 +6,14 @@ This repository contains the SQL scripts and documentation for a social media pl
 
 ## Normalized Tables
 
-1. **User**: Contains information about users.
+1. **Users**: Contains information about users.
 2. **Posts**: Stores user posts.
-3. **Comment**: Records comments made on posts.
-4. **Friendship**: Stores connections between users.
-5. **Notification**: Records notifications for user activities.
+3. **Comments**: Records comments made on posts.
+4. **Friendships**: Stores connections between users.
+5. **Notifications**: Records notifications for user activities.
 6. **Likes**: Stores likes on posts.
-7. **Message**: Stores private messages between users.
-8. **Tag**: Records tags associated with posts.
+7. **Messages**: Stores private messages between users.
+8. **Tags**: Records tags associated with posts.
 
 ## Database Normalization
 
@@ -40,13 +40,13 @@ This repository contains the SQL scripts and documentation for a social media pl
 
 ## Table Creation Scripts
 
-- [user.sql](user.sql)
+- [users.sql](users.sql)
 - [posts.sql](posts.sql)
-- [comment.sql](comment.sql)
-- [friendship.sql](friendship.sql)
-- [notification.sql](notification.sql)
+- [comments.sql](comments.sql)
+- [friendships.sql](friendships.sql)
+- [notifications.sql](notifications.sql)
 - [likes.sql](likes.sql)
-- [message.sql](message.sql)
+- [messages.sql](messages.sql)
 - [tag.sql](tag.sql)
 
 ## Trigger Scripts
